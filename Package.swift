@@ -25,8 +25,7 @@ let package = Package(
             name: "MyLibrary",
             dependencies: ["Awesome"],
             resources: [
-                .process("Media.xcassets"),
-                .process("Fonts")]),
+                .process("Media.xcassets")]),
        
         .testTarget(
             name: "MyLibraryTests",
