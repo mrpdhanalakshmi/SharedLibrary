@@ -26,7 +26,7 @@ let package = Package(
             dependencies: ["Awesome"],
             resources: [
                 .process("Media.xcassets"),
-                /*.process("Fonts")*/]),
+                .process("Fonts")]),
        
         .testTarget(
             name: "MyLibraryTests",
